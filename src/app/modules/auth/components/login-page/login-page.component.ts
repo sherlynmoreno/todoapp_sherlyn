@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { ReplaceSpacePipe } from '@shared/pipes/replace-space.pipe';
 
 @Component({
@@ -8,12 +9,20 @@ import { ReplaceSpacePipe } from '@shared/pipes/replace-space.pipe';
 })
 export class LoginPageComponent implements OnInit {
 
-  value = 'Hola mundo'
+
+
 
   constructor(private replaceSpace:ReplaceSpacePipe) { }
 
   ngOnInit(): void {
-    this.value = this.replaceSpace.transform(this.value,'👍')
+    // this.value = this.replaceSpace.transform(this.value,'👍')
+
+    
   }
 
+ 
+
 }
+
+
+
