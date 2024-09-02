@@ -1,5 +1,8 @@
 <app-header></app-header>
-
-<div>
-    Hola mundo este es un texto 🙌🙌
+<div class="task-columns">
+    
+    <app-column [name]="group.label" [data]="group.list"
+    *ngFor="let group of groups">
+    </app-column>
+    
 </div>

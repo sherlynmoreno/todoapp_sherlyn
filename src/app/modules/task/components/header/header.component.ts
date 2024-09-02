@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 // import { NewTaskService } from '@modules/task/services/new-task.service';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-header', //TODO: El tag que usas para llamar a este componente
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
