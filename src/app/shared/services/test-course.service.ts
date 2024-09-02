@@ -10,6 +10,6 @@ export class TestCourseService {
   constructor() { }
 
   setData(msg:string):void{
-    this.dataTest = msg;
+    this.dataTest = msg;  //
   }
 }
